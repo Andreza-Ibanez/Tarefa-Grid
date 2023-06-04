@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefa Grid</title>
+    <style>
+        body{
+            background-color: pink;
+        }
+        .Titulo{
+            font-family: 'Courier New', Courier, monospace;
+            font-size: larger;
+            font-weight: bold;
+            text-align: center;
+            height: 80px;
+            width: 400px; 
+            background-color: palevioletred;
+            margin: 0 auto;
+        }
+        .container{
+            display: grid;
+            grid-template-columns:1fr 2fr 1fr;
+            gap: 20px 10px;
+        }
+
+        .Bella{
+            align-self: self-start;
+            text-align: center;
+        }
+
+        .Bellaevi{
+             align-self: flex-start;
+        }
+
+        .Lunaevi{
+            align-self: self-end;
+        }
+
+        .Pitty{
+            align-self: flex-end;
+        }
+    </style>
+</head>
+<body>
+
+   <div class="Titulo"><h1>Minhas Fofas</h1> </div>
+
+    <div class="container">
+
+     <div class="Bella"><img src="img/Bella no armario.jpg" width="85%" height="85%" ></div>
+
+     <div class="Bella,Vick e Luna"><img src="img/Bella, Vick e Luna.jpg" width="85%" height="85%"></div>
+
+     <div class="Bellaevi"><img src="img/Bellinha e Vickinha.jpg" width="85%" height="85%px" ></div>
+
+     <div class="Bellinha"><img src="img/Bellinha.jpg" width="85%" height="85%"></div>
+
+     <div class="Jack"><img src="img/Jack.jpg" width="85%" height="85%"></div>
+
+     <div class="Jully"><img src="img/Jully.JPG" width="85%" height="85%"></div>
+
+     <div class="Lunaevi"><img src="img/Luna e Vick.jpg" width="85%" height="85%"></div>
+
+     <div class="Luna na sacola"><img src="img/Luna na sacola.jpg" width="85%" height="85%"></div>
+
+     <div class="Pitty"><img src="img/Pitty.JPG" width="85%" height="85%"></div>
+
+
+    </div>
+</body>
+</html>
